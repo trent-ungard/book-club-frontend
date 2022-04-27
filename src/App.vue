@@ -18,6 +18,7 @@ export default defineComponent({
 <style lang="scss">
 @import './styles/variables';
 @import './styles/utils';
+@import './styles/index';
 
 * {
   box-sizing: border-box;
@@ -34,17 +35,9 @@ body{
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  background-color: $light-color-two;
-  min-height: 100vh;
 }
 
 nav {
   padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-  }
 }
 </style>

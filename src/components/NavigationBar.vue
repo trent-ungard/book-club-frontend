@@ -4,45 +4,45 @@
     <hr />
     <nav v-if="open === true" class="bg-dark-shade border-sm-dark-tint">
       <ul>
-        <li>
-          <router-link to="/">
+        <router-link to="/">
+          <li>
             <font-awesome-icon
               icon="home"
               class="pointer icon-sm color-light"
             />
             <p>Home</p>
-          </router-link>
-        </li>
+          </li>
+        </router-link>
         <hr />
-        <li>
-          <router-link to="/books">
+        <router-link to="/books">
+          <li>
             <font-awesome-icon
               icon="book"
               class="pointer icon-sm color-light"
             />
             <p>Books</p>
-          </router-link>
-        </li>
+          </li>
+        </router-link>
         <hr />
-        <li>
-          <router-link to="/clubs">
+        <router-link to="/clubs">
+          <li>
             <font-awesome-icon
               icon="user-group"
               class="pointer icon-sm color-light"
             />
             <p>Groups</p>
-          </router-link>
-        </li>
+          </li>
+        </router-link>
         <hr />
-        <li>
-          <router-link to="/search">
-            <font-awesome-icon
-              icon="search"
-              class="pointer icon-sm color-light"
-            />
-            <p>Search</p>
-          </router-link>
-        </li>
+        <router-link to="/search">
+          <li>
+              <font-awesome-icon
+                icon="search"
+                class="pointer icon-sm color-light"
+              />
+              <p>Search</p>
+          </li>
+        </router-link>
       </ul>
     </nav>
     <font-awesome-icon

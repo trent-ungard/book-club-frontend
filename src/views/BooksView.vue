@@ -1,5 +1,5 @@
 <template>
-  <div class="books">
-    <h1>Test</h1>
+  <div class="books-page page">
+    <h1>Books</h1>
   </div>
 </template>
